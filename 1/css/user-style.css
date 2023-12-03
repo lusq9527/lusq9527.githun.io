@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.c24682 {
+    padding: 10px;
+}
+
+.htmlpage-row {
+    display: table;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.htmlpage-cell {
+    width: 8%;
+    display: table-cell;
+    height: 75px;
+}
+
+.c25352 {
+    color: #d983a6;
+}
+
+@media (max-width: 768px) {
+    .htmlpage-cell {
+        width: 100%;
+        display: block;
+    }
+}
